@@ -1,13 +1,13 @@
-public class Dorf extends Gebaeude
+public class Dorf extends Haus
 {
-	protected int dorfgebaeude;
+	private int dorfgebaeude;
+	private int besucher;
 	
 	public Dorf(){
 		dorfgebaeude = 6;
-		
 	}
 	
-	public void besucher(){
-		
+	public int besucher(){
+		besucher = dorfgebaeude*Random(10)+4;
 	}
 }

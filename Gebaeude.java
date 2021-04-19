@@ -1,9 +1,8 @@
 
 public class Gebaeude
 {
-    protected double hoehe;
-    
-    protected int besucher;
+    private double hoehe;
+    private int besucher;
     
     public Gebaeude( double pHoehe, int pBesucher )
     {

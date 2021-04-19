@@ -1,7 +1,7 @@
 
 public class Haus extends Gebaeude
 {
-    protected int stockwerke;
+    private int stockwerke;
     
     public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher )
     {

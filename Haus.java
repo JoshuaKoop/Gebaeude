@@ -1,4 +1,3 @@
-
 public class Haus extends Gebaeude
 {
     private int stockwerke;

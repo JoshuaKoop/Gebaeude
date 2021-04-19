@@ -1,4 +1,3 @@
-
 public class Kirche extends Gebaeude
 {
     

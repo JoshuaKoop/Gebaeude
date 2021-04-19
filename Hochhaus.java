@@ -1,7 +1,6 @@
-
 public class Hochhaus extends Haus
 {
-    protected int stockwerke;
+    private int stockwerke;
     
     public Hochhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucherProStockwerk )
     {

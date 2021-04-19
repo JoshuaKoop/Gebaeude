@@ -1,4 +1,3 @@
-
 public class Kathedrale extends Kirche
 {
 

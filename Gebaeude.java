@@ -1,4 +1,3 @@
-
 public class Gebaeude
 {
     private double hoehe;

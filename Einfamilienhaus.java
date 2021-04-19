@@ -1,9 +1,7 @@
-
 /**
- * Beschreiben Sie hier die Klasse Einfamilienhaus.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * Der Klasse werden die Parameter Höhe pro Stockwerk, Anzahl Stockwerke und Anzahl der Besucher übergeben.
+ * @author Joshua Koop
+ * @version 0.1
  */
 public class Einfamilienhaus extends Haus
 {

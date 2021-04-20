@@ -11,4 +11,7 @@ public class Einfamilienhaus extends Haus
         super(pHoeheProStockwerk, pStockwerke, pBesucher);
     }
     
+	public int gibBesucher(){
+		return besucher;
+	}
 }

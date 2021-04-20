@@ -1,4 +1,4 @@
-public class Gebaeude
+public class Gebaeude extends Dorf
 {
     private double hoehe;
     private int besucher;
@@ -17,5 +17,4 @@ public class Gebaeude
     public int anzahlBesucher() {
         return besucher;
     }
-    
 }

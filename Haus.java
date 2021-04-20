@@ -1,11 +1,12 @@
 public class Haus extends Gebaeude
 {
     private int stockwerke;
+    private int hoehe;
     
-    public Haus( double pHoeheProStockwerk, int pStockwerke, int pBesucher )
+    public Haus( double pHoeheProStockwerk, int stockwerke, int pBesucher )
     {
         super(pHoeheProStockwerk, pBesucher);
-        stockwerke = pStockwerke;
+        this.stockwerke = stockwerke;
     }
     
     public double getHoehe() {

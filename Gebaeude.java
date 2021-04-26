@@ -1,9 +1,9 @@
-public class Gebaeude extends Dorf
+public class Gebaeude
 {
     private double hoehe;
     private int besucher;
     
-    public Gebaeude( double pHoehe, int pBesucher )
+    public Gebaeude(double pHoehe, int pBesucher )
     {
         hoehe = pHoehe;
         besucher = pBesucher;
@@ -14,7 +14,7 @@ public class Gebaeude extends Dorf
         return hoehe;
     }
     
-    public int anzahlBesucher() {
+    public int gibBesucher(){
         return besucher;
     }
 }

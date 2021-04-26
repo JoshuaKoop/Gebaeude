@@ -1,7 +1,6 @@
 public class Dorf
 {
-    private Einfamilienhaus dorfgebaeude[] = new Einfamilienhaus[6];
-    private Kathedrale dorf[] = new Kathedrale[1];
+    private Gebaeude dorfgebaeude[] = new Gebaeude[7];
     private int besucher = 0;
     
     public Dorf(){
@@ -11,14 +10,27 @@ public class Dorf
         dorfgebaeude[3] = new Einfamilienhaus(2.4,5,14);
         dorfgebaeude[4] = new Einfamilienhaus(2.6,3,8);
         dorfgebaeude[5] = new Einfamilienhaus(2.7,8,9);
-        dorf[0] = new Kathedrale(20,150);
+        dorfgebaeude[6] = new Kathedrale(20,150);
     }
     
-    public int besucher(){
+    public int gibBesucher(){
         for(int i = 0; i < dorfgebaeude.length;i++){
             besucher = besucher + dorfgebaeude[i].gibBesucher();
         }
-        besucher = besucher + dorf[0].gibBesucher();
         return besucher;
+    }
+    
+    public void gebaeudeHinzufuegen(Gebaeude pGebaeude){
+        Gebaeude[] dorfgebaeudeNeu = new Gebaeude[dorfgebaeude.length+1];
+        for(int i = 0; i < dorfgebaeude.length; i++){
+            dorfgebaeudeNeu[i] = dorfgebaeude[i];
+        }
+        dorfgebaeudeNeu[dorfgebaeudeNeu.length-1] = pGebaeude;
+        dorfgebaeude = dorfgebaeudeNeu;
+    }
+    
+    public void ersteVeränderung(){
+        gebaeudeHinzufuegen(new Einfamilienhaus(2.5,2,7));
+        gebaeudeHinzufuegen(new Kathedrale(30,120));
     }
 }

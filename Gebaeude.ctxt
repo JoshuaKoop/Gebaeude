@@ -5,5 +5,5 @@ comment1.target=Gebaeude(double,\ int)
 comment2.params=
 comment2.target=double\ getHoehe()
 comment3.params=
-comment3.target=int\ anzahlBesucher()
+comment3.target=int\ gibBesucher()
 numComments=4

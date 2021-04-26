@@ -5,15 +5,8 @@
  */
 public class Einfamilienhaus extends Haus
 {
-    
-    private int besucher;
-    
-    public Einfamilienhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucher )
+    public Einfamilienhaus(double pHoeheProStockwerk,int pStockwerke,int pBesucher )
     {
         super(pHoeheProStockwerk, pStockwerke, pBesucher);
-    }
-    
-    public int gibBesucher(){
-        return besucher;
     }
 }

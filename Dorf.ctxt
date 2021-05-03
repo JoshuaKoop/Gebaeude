@@ -8,4 +8,6 @@ comment3.params=pGebaeude
 comment3.target=void\ gebaeudeHinzufuegen(Gebaeude)
 comment4.params=
 comment4.target=void\ ersteVer\u00E4nderung()
-numComments=5
+comment5.params=
+comment5.target=void\ zweiteVer\u00E4nderung()
+numComments=6

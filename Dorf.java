@@ -14,6 +14,7 @@ public class Dorf
     }
     
     public int gibBesucher(){
+        besucher = 0;
         for(int i = 0; i < dorfgebaeude.length;i++){
             besucher = besucher + dorfgebaeude[i].gibBesucher();
         }
@@ -32,5 +33,9 @@ public class Dorf
     public void ersteVeränderung(){
         gebaeudeHinzufuegen(new Einfamilienhaus(2.5,2,7));
         gebaeudeHinzufuegen(new Kathedrale(30,120));
+    }
+    
+    public void zweiteVeränderung(){
+        gebaeudeHinzufuegen(new Dom(20,120));
     }
 }
